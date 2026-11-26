@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shivanshu Satyajeet - Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shivanshu Satyajeet's personal developer profile, an HTML and CSS portfolio experiment.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Shivanshu Satyajeet | Developer Profile</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Shivanshu Satyajeet</h1>
-            <p>Professional Web Developer & Designer</p>
-        </div>
-    </header>
-
-    <main class="container">
-        <section class="profile-section">
-            <div class="bio">
-                <h2>About Me</h2>
-                <p>Hello there! I'm Shivanshu Satyajeet, a passionate web developer who turns coffee into code and ideas into reality. When I'm not debugging my own code (which happens more often than I'd like to admit), you can find me exploring new technologies or pretending to understand quantum computing.</p>
-                
-                <p>My journey in tech started when I realized that making websites was cooler than playing video games (okay, maybe just slightly cooler). Since then, I've been on an adventure to master the art of turning pixels into beautiful experiences.</p>
-            </div>
-        </section>
-
-        <section class="skills-section">
-            <h2>My Skills</h2>
-            <ul class="skills-list">
-                <li>HTML5 & CSS3</li>
-                <li>JavaScript (Still trying to understand promises!)</li>
-                <li>Responsive Design</li>
-                <li>User Experience</li>
-                <li>Creative Problem Solving (Sometimes)</li>
-            </ul>
-        </section>
-
-        <section class="social-section">
-            <h2>Connect With Me</h2>
-            <div class="social-links">
-                <a href="#" class="social-link">LinkedIn</a>
-                <a href="#" class="social-link">GitHub</a>
-                <a href="#" class="social-link">Twitter</a>
-                <a href="#" class="social-link">Instagram</a>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Shivanshu Satyajeet. Made with ❤️ and lots of caffeine.</p>
-        </div>
-    </footer>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="brand" href="#main" aria-label="Developer profile home"><span aria-hidden="true">SS.</span> Developer Profile</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#connect">Connect</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="container">
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <p class="eyebrow">PERSONAL PROFILE / WEB EXPERIMENT 01</p>
+        <h1 id="hero-title">Shivanshu <span>Satyajeet.</span></h1>
+        <p class="lead">Exploring web development, responsive design and creative problem-solving.</p>
+        <p>Building my skills one project at a time, turning ideas into useful digital experiences.</p>
+        <div class="actions"><a class="button primary" href="https://github.com/void-tech-shiv">Explore my GitHub</a><a class="button secondary" href="#about">About me</a></div>
+      </div>
+      <div class="visual" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="monogram">SS<span>.</span></div><span class="visual-caption">DESIGN / CODE / LEARN</span></div>
+    </section>
+    <section id="about" class="panel" aria-labelledby="about-title">
+      <p class="eyebrow">01 / INTRODUCTION</p>
+      <h2 id="about-title">About me</h2>
+      <p>I'm Shivanshu Satyajeet, a developer interested in building websites and exploring new technologies. I enjoy transforming ideas into interfaces and improving my work through practice and debugging.</p>
+      <p>This profile began as a web-development experiment. It focuses on semantic HTML, reusable CSS, responsive layouts and a clean visual hierarchy.</p>
+    </section>
+    <section id="skills" aria-labelledby="skills-title">
+      <p class="eyebrow">02 / LEARNING &amp; SKILLS</p>
+      <h2 id="skills-title">What I explore</h2>
+      <ul class="skills-grid">
+        <li><span>01 / STRUCTURE</span><h3>HTML5 &amp; CSS3</h3><p>Semantic page structure, styling and flexible layouts.</p></li>
+        <li><span>02 / INTERACTION</span><h3>JavaScript</h3><p>Learning browser interactivity and programming concepts.</p></li>
+        <li><span>03 / LAYOUT</span><h3>Responsive design</h3><p>Interfaces that adapt across mobile and desktop screens.</p></li>
+        <li><span>04 / EXPERIENCE</span><h3>User experience</h3><p>Readable, accessible and intuitive interfaces.</p></li>
+        <li><span>05 / PRACTICE</span><h3>Problem-solving</h3><p>Experimenting, debugging and iterating on small projects.</p></li>
+      </ul>
+    </section>
+    <section id="connect" class="panel connect" aria-labelledby="connect-title">
+      <div><p class="eyebrow">03 / CONNECTIONS</p><h2 id="connect-title">Explore my work</h2><p>Browse my public repositories and follow my development journey on GitHub.</p></div>
+      <a class="button primary" href="https://github.com/void-tech-shiv">GitHub profile</a>
+    </section>
+  </main>
+  <footer><div class="container footer-row"><p>Shivanshu Satyajeet · Developer profile experiment</p><a href="https://github.com/void-tech-shiv/Exprement-1">View source code</a></div></footer>
 </body>
 </html>
